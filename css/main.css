@@ -14,11 +14,11 @@ p, ol, {
 }
 
 p {
-  text-size: 1rem;
+  font-size: 1rem;
 }
 
 ol {
-  text-size: .875rem;
+  font-size: .875rem;
 }
 
 div {
@@ -27,13 +27,13 @@ div {
   border-radius: 8px;
   border-width: 2px;
   border-style: solid;
-  tex-size: 1.125rem;
+  font-size: 1.125rem;
   font-family: 'Dosis', sans-serif;
 }
 
 h1 {
   font-family: 'Dosis', sans-serif;
-  text-size: 1.5rem;
+  font-size: 1.5rem;
   color: #512200;
 }
 
