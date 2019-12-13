@@ -1,55 +1,96 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia, serif;
   line-height: 1.5;
-  background-color: #dcd4cd;
+}
+
+body {
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-p, ol, {
-  font-family: Georgia, serif;
+.link-card {
+  display: block;
+  background-color: #dcd4cd;
+  border: solid #cabdb2;
+  border-width: 3px;
+  border-radius: 3px;
+  padding: 1rem;
+  text-decoration: none;
   color: #785439;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+dl {
+  display: inline-block;
+  width: 100%;
+  font-size: .875rem;
+  margin: 0;
+  color: #9a816d;
+  padding: 0 0 1rem;
+  border-bottom: 2px solid #9a816d;
+}
+
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  float: left;
+  width: 50%;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
 }
 
 p {
   font-size: 1rem;
+  padding: 0 0 1rem;
+  border-bottom: 2px solid #9a816d;
 }
 
-ol {
-  font-size: .875rem;
-}
-
-div {
-  background-color: #785439;
-  color: #f0eee8;
-  border-radius: 8px;
-  border-width: 2px;
-  border-style: solid;
+.btn {
+  display: inline-block;
+  font-family: Dosis, sans-serif;
   font-size: 1.125rem;
-  font-family: 'Dosis', sans-serif;
+  background-color: #785439;
+  padding: .4em .75em .5em;
+  color: #f0eee8;
+  border: solid #785439;
+  border-width: 2px;
+  border-radius: 8px;
+  margin: .5em .5em .1em;
+  font-weight: bold;
 }
 
-h1 {
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.5rem;
+footer {
+  text-align: center;
+}
+
+.link-card:hover {
   color: #512200;
+  background-color: #cabdb2;
+  border-color: #512200;
 }
 
-.italic {
-  font-style: italic;
+.link-card:hover .btn {
+  background-color: #512200;
+  border: solid #512200;
+  border-width: 2px;
+  border-radius: 8px;
 }
 
-ul {
-  display: in-inline;
-  border-top:
-  border-bottom:
-}
-
-.link-card {
-  background-color: #9a816d;
-  border-radius: 3px;
-  border-width: 3px;
-  border-style: solid;
+.link:hover dl {
+  color: #512200;
 }
